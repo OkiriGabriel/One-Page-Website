@@ -5,6 +5,7 @@
     <title>MAPHub</title>
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/animate.css" type="text/css">
     <link rel="stylesheet" href="fonts/webfont/fonts.css" type="text/css">
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <script src="https://kit.fontawesome.com/3ab5bb1781.js" crossorigin="anonymous"></script>
@@ -45,10 +46,12 @@
                             <P>Lorem ipsum dolor sit amet<br> consectetur adipisicing elit.<br>
                                  Mollitia blanditiis,<br> deserunt eos sequi officia minima.</P>
                                
-                                <a  onclick="myFunction()" href="google.com" class="button
-                                
-                                ui--a"><span >Artilces </span>
-                                </a>
+                              
+                                <a onclick="myFunction(event)" href="google.com" class="button
+                                ui--a "><span class="animate__animated animate__flash animate__slower animate__infinite">
+                                    Click Me!</span>
+                            
+                               </a>
 
                         </div>
                     </div>
@@ -78,7 +81,7 @@
                         <div class="col-xl-3 mrgt3 col-md-4">
                             <div class="single_service-2 text-center">
                                 <div class="icon">
-                                    <img src="images/phone1.png" class="ico  animate__animated animate__rotateIn animate__delay-2s "style="width: 100px; height: 110px;" alt="">
+                                    <img src="images/phone1.png" class="ico  animate__animated animate__bounce animate__slower animate__infinite "style="width: 100px; height: 110px;" alt="">
                                 </div>
                                 <h3 class="sect0 font-poppinsmedium fs--20">Articles</h3>
                                 <p class="font-poppinslight sect1">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
@@ -87,7 +90,7 @@
                         <div class="col-xl-3 mrgt3 col-md-4">
                             <div class="single_service-2 text-center">
                                 <div class="icon">
-                                    <img src="images/pddp.png" class=" img-2 animate__animated animate__rotateIn animate__delay-2s" style="width: 100px; height: 110px;" alt="">
+                                    <img src="images/pddp.png" class=" img-2 animate__animated animate__bounce animate__slower animate__infinite" style="width: 100px; height: 110px;" alt="">
                                 </div>
                                 <h3  class="sect0 font-poppinsmedium fs--20">Pictures</h3>
                                 <p class="font-poppinslight sect1">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
@@ -96,7 +99,7 @@
                         <div class="col-xl-3 mrgt3 col-md-4">
                             <div class="single_service-2 text-center">
                                 <div class="icon">
-                                    <img src="images/12.jpg"  class="animate__animated animate__rotateIn animate__delay-2s"  style="width: 100px; height: 110px;"r alt="">
+                                    <img src="images/12.jpg"  class="animate__animated animate__bounce animate__slower animate__infinite"  style="width: 100px; height: 110px;"r alt="">
                                 </div>
                                 <h3  class="sect0 font-poppinsmedium fs--20">Art</h3>
                                 <p class="font-poppinslight sect1">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
@@ -105,7 +108,7 @@
                         <div class="col-xl-3 mrgt3 col-md-4">
                             <div class="single_service-2 text-center">
                                 <div class="icon">
-                                    <img src="images/11.jpg"  class="animate__animated animate__rotateIn animate__delay-2s"  style="width: 100px; height: 110px;"r alt="">
+                                    <img src="images/11.jpg"  class="animate__animated animate__bounce animate__slower animate__infinite"  style="width: 100px; height: 110px;"r alt="">
                                 </div>
                                 <h3  class="sect0 font-poppinsmedium fs--20">Design</h3>
                                 <p class="font-poppinslight sect1">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor.</p>
@@ -202,28 +205,14 @@
       <script src="js/custom.js" type="text/javascript"></script>
 
       <script>
-            window.alert('TADA! Welcome to my MAPHub....Enjoy');
+           
             </script>
             <script>
-                    function myFunction() {
-                        var txt;
-                        if (confirm("Press a button!")) {
-                            txt = "You pressed OK!";
-                        } else {
-                            txt = "You pressed Cancel!";
-                        }
-                        document.getElementById("demo").innerHTML = txt;
-                    }
+          
                 </script>
 
 
-<script>
-        // When the user clicks on div, open the popup
-        function myFunction() {
-            var popup = document.getElementById("myPopup");
-            popup.classList.toggle("show");
-        }
-        </script>
+
 
       
 </body>
